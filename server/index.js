@@ -23,7 +23,7 @@ app.use("/api/admin", adminRoutes);
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Contact Form API is running...");
+  res.json("Contact Form API is running...");
 });
 
 const PORT = process.env.PORT || 5000;
