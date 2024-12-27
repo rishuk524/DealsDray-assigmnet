@@ -158,7 +158,7 @@ const ContactForm = () => {
                 type="submit"
                 className="bg-green-500 text-white py-2 px-4 rounded mt-4 hover:bg-green-600 w-full"
               >
-                Submit Your Details
+              Get Free Career Evaluation →
               </button>
             </form>
           </>
