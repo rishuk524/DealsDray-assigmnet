@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
-const contactRoutes = require("./routes/contactRoutes");
+const contactRoutes = require("./Routes/ContactRoutes");
 const adminRoutes = require("./Routes/AdminRoutes")
 
 dotenv.config();
