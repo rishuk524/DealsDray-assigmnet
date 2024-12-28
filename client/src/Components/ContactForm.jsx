@@ -57,7 +57,7 @@ const ContactForm = () => {
 
     try {
       // Send form data to the backend using axios
-      const response = await axios.post("http://localhost:5000/api/contact/create", formData);
+      const response = await axios.post("https://dealsdray-assigmnet.onrender.com/api/contact/create", formData);
 
       // Handle success (Redirect after successful submission)
       if (response.status === 200) {

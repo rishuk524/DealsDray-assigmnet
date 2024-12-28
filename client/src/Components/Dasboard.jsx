@@ -17,7 +17,7 @@ const ContactList = () => {
         return;
       }
 
-      const response = await axios.get("http://localhost:5000/api/admin/get-all-contacts", {
+      const response = await axios.get("https://dealsdray-assigmnet.onrender.com/api/admin/get-all-contacts", {
         headers: {
           Authorization: `Bearer ${token}`, // Send token in Authorization header
         },
